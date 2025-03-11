@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/HomeFragment"
+        android:icon="@drawable/home_24"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/HoodFragment"
+        android:icon="@drawable/article_24"
+        android:title="동네생활"/>
+
+    <item
+        android:id="@+id/LocationFragment"
+        android:icon="@drawable/location_24"
+        android:title="동네지도"/>
+
+    <item
+        android:id="@+id/ChatFragment"
+        android:icon="@drawable/chat_24"
+        android:title="채팅"/>
+
+    <item
+        android:id="@+id/ProfileFragment"
+        android:icon="@drawable/account_24"
+        android:title="나의 당근"/>
+
+</menu>

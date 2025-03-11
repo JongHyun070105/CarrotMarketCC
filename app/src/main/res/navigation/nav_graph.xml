@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.carrotmarketclonecoding.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/HoodFragment"
+        android:name="com.example.carrotmarketclonecoding.HoodFragment"
+        tools:layout="@layout/fragment_hood" />
+
+    <fragment
+        android:id="@+id/LocationFragment"
+        android:name="com.example.carrotmarketclonecoding.LocationFragment"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/ChatFragment"
+        android:name="com.example.carrotmarketclonecoding.ChatFragment"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.carrotmarketclonecoding.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
