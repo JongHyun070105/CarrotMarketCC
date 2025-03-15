@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "CarrotMarketCloneCoding"
 include(":app")
- 
+
