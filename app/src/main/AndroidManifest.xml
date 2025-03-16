@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CarrotMarketCloneCoding"
         tools:targetApi="31">
         <activity
+            android:name=".WriteActivity"
+            android:exported="false" />
+        <activity
             android:name=".PhoneLoginActivity"
             android:exported="false" />
         <activity
